@@ -16,7 +16,8 @@ import time
 import numpy as np
 import pickle
 import pylab as pl
-from maskrcnn_benchmark.config import cfg
+# from maskrcnn_benchmark.config import cfg
+# from detectron2.config import get_cfg
 from target_model.demo.multi_size_loss import COCODemo
 import random
 
