@@ -7,7 +7,7 @@ from utils import save_obj
 from utils import load_obj
 from utils import get_pic_info
 import torch.nn.functional as F
-from dataloader_center import RPC
+from dataloader_crop import RPC
 from torchvision import transforms, models
 from PIL import Image
 import sys
